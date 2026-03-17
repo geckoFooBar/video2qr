@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-description',
   standalone: true,
   template: `
-    <div class="flex flex-col justify-center items-center p-5">
+    <div class="flex flex-col justify-center items-center p-5 select-none">
       <h2 class="text-3xl font-bold mb-4">Welcome to video2QR!</h2>
       <p class="text-lg text-gray-700 text-center max-w-3xl text-center break-normal">
         video2QR is a simple and efficient tool that allows you to convert any video URL into a QR code. 

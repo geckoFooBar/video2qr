@@ -13,21 +13,20 @@ import { Component } from '@angular/core';
       }
     </div>
     <div class="flex flex-row justify-center items-center">
-      <button class="bg-blue-500 text-white px-4 py-2 rounded" (click)="generate(videoUrlInput.value)">
-        Click me to generate QR code
+      <button class="bg-blue-500 text-white px-4 py-2 rounded-2xl hover:bg-blue-600" (click)="generate(videoUrlInput.value)">
+        Generate QR code
       </button>
       <span class="mx-6"></span>
-      <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" (click)="clear(videoUrlInput)">
+      <button class="bg-red-500 text-white px-4 py-2 rounded-2xl hover:bg-red-600" (click)="clear(videoUrlInput)">
         Clear
       </button>
       <span class="mx-6"></span>
-      <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 font-bold">
+      <button class="bg-green-500 text-white px-4 py-2 rounded-2xl hover:bg-green-600 font-bold">
 		  Download QR Code
 	    </button>
     </div>
   <div>
   `,
-  styleUrl: './generate-qr.css',
 })
 export class GenerateQr {
 

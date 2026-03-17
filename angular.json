@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "frontend": {
+    "video2qr": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -74,10 +74,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "frontend:build:production"
+              "buildTarget": "video2qr:build:production"
             },
             "development": {
-              "buildTarget": "frontend:build:development"
+              "buildTarget": "video2qr:build:development"
             }
           },
           "defaultConfiguration": "development"
