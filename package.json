@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "video2qr",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:frontend": "node dist/frontend/server/server.mjs"
+    "serve:ssr:video2qr": "node dist/video2qr/server/server.mjs"
   },
   "private": true,
   "packageManager": "npm@11.11.1",
